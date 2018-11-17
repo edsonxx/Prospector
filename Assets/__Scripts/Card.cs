@@ -3,8 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class Card : MonoBehaviour {
-
-	public string    suit;
+    [Header("Set Dynamically")]
+    public string    suit;
 	public int       rank;
 	public Color     color = Color.black;
 	public string    colS = "Black";  // or "Red"
@@ -24,17 +24,6 @@ public class Card : MonoBehaviour {
 		set {
 			back.SetActive(!value);
 		}
-	}
-
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 } // class Card
 
