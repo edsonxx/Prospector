@@ -9,9 +9,11 @@ using UnityEngine.UI;
         public static Scoreboard S; // The singleton for Scoreboard
         [Header("Set in Inspector")]
         public GameObject prefabFloatingScore;
+
         [Header("Set Dynamically")]
         [SerializeField] private int _score = 0;
         [SerializeField] private string _scoreString;
+
         private Transform canvasTrans;
         // The score property also sets the scoreString
         public int score

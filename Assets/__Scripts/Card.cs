@@ -18,10 +18,9 @@ public class Card : MonoBehaviour {
     public SpriteRenderer[] spriteRenderers;
 
 
-    // Use this for initialization
+    
 
-    void
-    Start()
+    void Start()
     {
         SetSortOrder(0);
 
